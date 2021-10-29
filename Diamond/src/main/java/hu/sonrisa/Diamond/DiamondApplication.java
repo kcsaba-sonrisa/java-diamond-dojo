@@ -7,7 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DiamondApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DiamondApplication.class, args);
+		Diamond.draw(Diamond.upTo('C'));
+		// SpringApplication.run(DiamondApplication.class, args);
 	}
 
 }

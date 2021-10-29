@@ -87,7 +87,7 @@ class DiamondApplicationTests {
 		String[] diamond = Diamond.upTo('D');
 
 		assertThat(diamond[0], is("---A---"));
-		assertThat(diamond[1], is("--B-B--"));
+		assertThat(diamond[1], is("---BB--"));
 		assertThat(diamond[2], is("-C---C-"));
 		assertThat(diamond[3], is("D-----D"));
 		assertThat(diamond[4], is("-C---C-"));
